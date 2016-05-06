@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  达内微博
+//
+//  Created by tarena on 16/5/5.
+//  Copyright © 2016年 tarena. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "Account.h"
+#define AccountPath [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/Account.plist"]
+
+
+#endif /* PrefixHeader_pch */
